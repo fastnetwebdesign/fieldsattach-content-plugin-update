@@ -2,7 +2,10 @@ Install via the Joomla admin.
 
 Activate the plugin in the `Extensions` > `Plugin Manager`. This is a `content` plugin.
 
-Instead of `$name = fieldattach::getValue($this->item->id, 4, false);` use `$name = $this->item->fieldsAttach->getValueById(4);`
+Instead of:
+`$name = fieldattach::getValue($this->item->id, 4, false);` 
+use: 
+`$name = $this->item->fieldsAttach->getValueById(4);`
 
 This plugin _should_ work on any com_content page, it uses the `onContentPrepare` event.
 
