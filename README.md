@@ -1,6 +1,4 @@
-Until we sort out an install process for these additional repos, download the zip from bitbucket and install via the Joomla admin.
-
-You will need to use `unlock_joomla` before you install and `lock_joomla` after the install has finished.
+Install via the Joomla admin.
 
 Activate the plugin in the `Extensions` > `Plugin Manager`. This is a `content` plugin.
 
