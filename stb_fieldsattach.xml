@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+    <name>Content - FieldsAttach Helper</name>
+    <author>Starberry Ltd</author>
+    <creationDate>September 2015</creationDate>
+    <copyright>Copyright (C) Starberry.tv All rights reserved.</copyright>
+    <authorEmail>simon@starberry.tv</authorEmail>
+    <authorUrl>www.starberry.tv</authorUrl>
+    <version>1.0.0</version>
+    <description>Trigger driven plugin to automate the loading of fieldsAttach fields into Joomla content articles</description>
+
+    <files>
+        <filename plugin="stb_fieldsattach">stb_fieldsattach.php</filename>
+        <folder>helpers</folder>
+    </files>
+</extension>
